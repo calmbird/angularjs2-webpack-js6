@@ -1,7 +1,12 @@
 {
   "name": "webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "angular2 + webpack + babel ES6",
+  "scripts": {
+    "develop": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build-watch\" \"npm run lite-server\"",
+    "build-watch": "webpack watch",
+    "lite-server": "lite-server -c configs/my-bs-config.json"
+  },
   "main": "webpack.config.js",
   "dependencies": {
     "angular2": "^2.0.0-beta.7",
@@ -12,15 +17,13 @@
     "babel-loader": "^6.2.3",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-preset-es2015": "^6.5.0",
+    "concurrently": "^2.0.0",
     "es6-promise": "^3.1.2",
     "zone.js": "^0.5.15"
   },
   "peerDependencies": {
     "es6-shim": "^0.34.4",
     "reflect-metadata": "^0.1.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC"
