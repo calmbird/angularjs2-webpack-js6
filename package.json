@@ -4,7 +4,7 @@
   "description": "angular2 + webpack + babel ES6",
   "scripts": {
     "develop": "node ./node_modules/concurrently/src/main.js --kill-others \"npm run build-watch\" \"npm run lite-server\"",
-    "build-watch": "webpack watch",
+    "build-watch": "webpack --watch",
     "lite-server": "lite-server -c configs/my-bs-config.json"
   },
   "main": "webpack.config.js",
