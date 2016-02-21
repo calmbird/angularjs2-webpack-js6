@@ -15,3 +15,5 @@ TODO:
 - attach less or sass style compiler
 - figure out html templates in angular2
 - make build task that minifies js, html etc
+- configure unit tests
+- configure e2e tests
