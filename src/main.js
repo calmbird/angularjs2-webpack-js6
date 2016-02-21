@@ -8,7 +8,7 @@ import {bootstrap} from 'angular2/platform/browser';
 })
 class egghead{
   constructor() {
-    this.message = 'cbaaa';
+    this.message = 'cbaaaasa';
   }
 }
 

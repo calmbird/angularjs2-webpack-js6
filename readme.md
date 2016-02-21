@@ -7,7 +7,7 @@ Then hit:
 npm install
 
 Then:
-npm run develop
+webpack-dev-server -d --content-base dev/
 
 TODO:
 - make task that copy index.html from src to dev
