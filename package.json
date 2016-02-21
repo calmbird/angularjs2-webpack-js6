@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "angular2 + webpack + babel ES6",
   "scripts": {
-    "develop": "webpack-dev-server -d --content-base dev/"
+    "develop": "ż"
   },
   "main": "webpack.config.js",
   "dependencies": {
@@ -18,9 +18,7 @@
     "concurrently": "^2.0.0",
     "es6-promise": "^3.1.2",
     "webpack-dev-server": "^1.14.1",
-    "zone.js": "^0.5.15"
-  },
-  "peerDependencies": {
+    "zone.js": "^0.5.15",
     "es6-shim": "^0.34.4",
     "reflect-metadata": "^0.1.3"
   },
